@@ -1,27 +1,24 @@
 <template>
   <v-app>
     <v-content>
-      <HelloWorld />
-      <SideBar />
+      <MainNavigation />
     </v-content>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import SideBar from "./components/SideBar.vue";
+import MainNavigation from "./components/MainNavigation.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
-    HelloWorld,
-    SideBar,
+    MainNavigation
   },
 
   data: () => ({
     //
-  }),
+  })
 });
 </script>
